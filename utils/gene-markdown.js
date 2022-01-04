@@ -16,12 +16,12 @@ function generateMarkdown(data) {
   ![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)  
 
 ## Table Of Contents
-- [Description](#discription)
+- [Description](#Discription)
 - [Installation](#Installation)
 - [Usage](#Usage)
 - [License](#License) 
 - [Contributing](#Contributing)
-- [Questions](Questions)
+- [Questions](#Question)
 
 ## Description
 ${data.description}
@@ -39,7 +39,6 @@ ${data.usage}
 ${data.contributing}
 
 ## Question
-${data.question}
 
 Github account: [${data.username}](https://github.com/${data.username})
 
