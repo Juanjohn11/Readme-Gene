@@ -70,7 +70,7 @@ function init() {
     inquirer.prompt(questions)
     .then(function (answers){
         const newString = generateMarkdown(answers)
-        writeToFile('./readme.md', newString)
+        writeToFile('./sample-readme.md', newString)
         console.log(newString)
     })
 
